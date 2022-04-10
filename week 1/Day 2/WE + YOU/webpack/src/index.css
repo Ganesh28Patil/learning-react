@@ -1,3 +1,11 @@
 .redText{
     color: red;
 }
+.blueText{
+    color: blue;
+}
+#text:hover{
+    cursor: pointer;
+    color: chartreuse;
+
+}
