@@ -43,8 +43,21 @@ function App() {
          })
        }
      </span>
+
+     <h1>
+       {
+         skills.map((e) =>{
+           return <Prowees skill = {e}  />
+         })
+       }
+
+     </h1>
     </div>
   );
+}
+function Prowees(props){
+  console.log('props:', props.skill);
+   return <p className='redText'>Skills: {props.skill}</p>
 }
 
 function Skill({skill}){
