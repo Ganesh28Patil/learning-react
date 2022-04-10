@@ -20,9 +20,10 @@ image.src = logo;
 image.alt="ReactIcon";
 document.getElementById("banner").append(image);
 */
-
+const img = React.createElement("img",{src:"./src/file.png",alt:"ReactImg"})
+const image = React.createElement("img",{width:"500px",height:"300px",src:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlGMFjiKISnkW40QqO2C5zxKWLFs-L-9RTCg&usqp=CAU"})
 const h2 = React.createElement("h2",{id:"text"},"Hello Ganesh");
-const p = React.createElement("p",{className:"blueText"},h2,"Wellcome to React Class");
+const p = React.createElement("p",{className:"blueText"},h2,img,"Wellcome to React Class",image);
 ReactDOM.render(p,document.getElementById("txt1"));
 
 const h1 = React.createElement("h1",{className:"redText"},"Hello React .....!");
