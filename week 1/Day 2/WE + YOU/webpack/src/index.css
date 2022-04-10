@@ -9,3 +9,11 @@
     color: chartreuse;
 
 }
+.cell{
+    width: 100px;
+    height: 50px;
+    border: 2px dotted red;   
+}
+#newRoot{
+    color: darkorchid;
+}
