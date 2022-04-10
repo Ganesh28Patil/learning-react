@@ -1,7 +1,14 @@
 .App {
   text-align: center;
 }
+.redText{
+  color: tomato;
+  font-weight: bold;
+}
+.blueWord{
+  color:blueviolet;
 
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
