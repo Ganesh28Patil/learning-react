@@ -5,7 +5,7 @@ import logo from "./file.png";
 import("./index.css");
 console.log(add(10,9));
 console.log(product(5,6));
-
+/*
 const h1 = document.createElement("h1");
 h1.innerText = "wellcome to web pack";
 h1.classList.add("redText");
@@ -17,3 +17,7 @@ console.log(logo);
 image.src = logo;
 image.alt="ReactIcon";
 document.getElementById("banner").append(image);
+*/
+
+const root = document.getElementById("root");
+
