@@ -1,7 +1,25 @@
 // import logo from './logo.svg';
 import React from "react";
+import Counter from "./Counter/Counter";
+import {Task} from "./Input/Task"
 import './App.css';
 
+function App(){
+ 
+  return(
+    <div className="App">
+      
+       <Counter />  
+       <br/>
+      
+       <Task />
+    </div>
+    );  
+}
+export default App;
+
+
+/*
 function App() {
   const [counter,setCounter] = React.useState(0);
 // destructuring
@@ -23,6 +41,8 @@ function App() {
   );
 }
 
+
+
 export default App;
 
 // state,
@@ -30,3 +50,4 @@ export default App;
 // hooks
 
 // state is something that the component remembers
+*/
