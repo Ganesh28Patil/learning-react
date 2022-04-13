@@ -8,6 +8,7 @@ Output:-
 In a new line print the position at which
 the elements are at equilibrium if no equilibrium point exists print -1.
 */
+// O(n)
 let arr = [3,3,5,5,8];
 // console.log('arr:', arr)
 let flag = false;
@@ -32,6 +33,33 @@ function equiElement(arr,N){
     // console.log('right:', right);
     for(let i = 0; i < left.length; i++){
         if(left[i] === right[i]){
+            console.log(i+1);
+            flag = true;
+            break;
+        }
+    }
+    if(!flag){
+        console.log(-1);
+    }
+}
+equiElement(arr,arr.length);
+
+// alternate method
+// O(n^2)
+
+function equiElement(arr,N){
+let flag = false;
+    for(let i = 0; i < arr.length; i++){
+        var left = 0;
+        for(j = 0; j < i; j++) {
+            left += arr[j];
+        }
+        var right = 0;
+        for(j = i+1; j < arr.length; j++){
+            right +=arr[j];
+        }
+        // console.log(left+"   "+right);
+        if(left == right){
             console.log(i+1);
             flag = true;
             break;
