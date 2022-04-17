@@ -1,7 +1,7 @@
 // Nearest Smaller to Right
-// i/p  4 5  2 10 8
-// o/p -1 4 -1  2 2
-//indx  0 1  2  3 4
+// i/p  4 5  2 10  8
+// o/p  2 2 -1  8 -1
+//indx  0 1  2  3  4
 
 var arr = [4,5,2,10,8];
 

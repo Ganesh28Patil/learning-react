@@ -1,8 +1,8 @@
-var data = [1,3,2,4];
-
+// next Greater Element to Left
 // i/p  1  3  2 4
 // o/p -1 -1  3 3
-//indx 0 1 2 3
+//indx  0  1  2 3
+var data = [1,3,2,4];
 
 let stack = [];
 let ans = [];
