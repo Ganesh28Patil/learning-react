@@ -6,6 +6,9 @@ import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const root2 = ReactDOM.createRoot(document.getElementById('root2'));
+// jsx => javascript xml
+// jsx => javascript extension
+
 root.render(
  <h1>Hello World</h1>,root
 );
@@ -20,13 +23,15 @@ ReactDOM.render(
 // expressions in react 
 
 const firstName = "Ganesh";
+const middleName = "Zawru";
 ReactDOM.render(
 <>
   <h1>My name is {firstName} Patil</h1>
   <p>Check here  Random Number is {Math.floor((Math.random()*100))}</p>
+{/* using  backticks `` in react */}
+  <h2> {`My full name is ${firstName} ${middleName} Patil`}</h2>
 </>
 ,document.getElementById("txt"));
 
 
-// jsx => javascript xml
-// jsx => javascript extension
+
