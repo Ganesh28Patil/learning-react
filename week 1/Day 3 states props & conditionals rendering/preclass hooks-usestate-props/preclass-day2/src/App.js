@@ -7,11 +7,9 @@ import './App.css';
 function App(){
  
   return(
-    <div className="App">
-      
+    <div className="App">      
        <Counter />  
-       <br/>
-      
+       <br/>      
        <Task />
     </div>
     );  
@@ -23,7 +21,7 @@ export default App;
 function App() {
   const [counter,setCounter] = React.useState(0);
 // destructuring
-// REact.useState = > [ value , setValue ]
+// React.useState = > [ value , setValue ]
   const handleIncrement = (value) =>{
     setCounter(counter + value);
     // console.log('counter:', counter);
