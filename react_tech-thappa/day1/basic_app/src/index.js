@@ -1,4 +1,4 @@
-import matchers from '@testing-library/jest-dom/matchers';
+// import matchers from '@testing-library/jest-dom/matchers';
 import React from 'react';
 // import ReactDOM from 'react-dom/client';
 import ReactDOM from 'react-dom';
@@ -32,6 +32,21 @@ ReactDOM.render(
   <h2> {`My full name is ${firstName} ${middleName} Patil`}</h2>
 </>
 ,document.getElementById("txt"));
+
+const img1 = "https://picsum.photos/200/300";
+const img2 = "https://picsum.photos/200"
+const img3 = "https://picsum.photos/400"
+
+
+ReactDOM.render(
+<>
+   <h1>`My name is {firstName}`</h1>
+  <img src={img1} alt="random_image" />
+  <img src={img2} alt="random_image" />
+  <img src={img3} alt="random_image" />
+
+</>
+,document.getElementById("attrbt"));
 
 
 
