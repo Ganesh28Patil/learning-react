@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.txt{
+  color:blue;
+  font-family: 'Dancing Script', cursive;
+}
+.imgBox{
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
+img{
+  margin: 10px;
+}

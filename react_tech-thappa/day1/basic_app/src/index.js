@@ -37,14 +37,23 @@ const img1 = "https://picsum.photos/200/300";
 const img2 = "https://picsum.photos/200"
 const img3 = "https://picsum.photos/400"
 
-
+const frame = {
+  height:"300px", width:"80%"
+}
+const data = {
+  firstName:"Sachin",
+  fontWeight:"bold",  
+  marginLeft:"30px",
+  color:"red"
+}
 ReactDOM.render(
 <>
-   <h1>`My name is {firstName}`</h1>
-  <img src={img1} alt="random_image" />
-  <img src={img2} alt="random_image" />
-  <img src={img3} alt="random_image" />
-
+   <h1 className='txt' style={data}>{`My name is ${data.firstName}`}</h1>
+  <div className = "imgBox" style={frame}>  
+    <img src={img1} alt="random_image" />
+    <img src={img2} alt="random_image" />
+    <img src={img3} alt="random_image" />
+  </div>
 </>
 ,document.getElementById("attrbt"));
 
