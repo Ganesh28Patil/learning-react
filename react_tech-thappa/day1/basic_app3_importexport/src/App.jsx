@@ -1,9 +1,9 @@
 const text = "Thappa Technical";
 const favProg = 'React';
-const sample = 'Sample code'
+const sample = 'universal import concept'
 
 function myName(){
-let name = "Ganesh Patil";
+let name = "Method";
 return name;
 }
 export {favProg,sample,myName};
