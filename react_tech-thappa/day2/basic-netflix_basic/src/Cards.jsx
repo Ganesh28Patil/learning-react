@@ -1,13 +1,16 @@
 import React from "react";
+import Heading from "./Heading";
+import Title from "./Title";
+import Image from "./Image";
 function Cards(props){
  return   ( 
     <>
         <div className="cards">
           <div className="card">
-            <img src={props.imgscr} alt="myPic" className="card_img"/>
-            <div className="card_info">
-              <span className="card_category">{props.title}</span>
-              <h3 className="card_title"> {props.sname}</h3>
+            <Image imgscr = {props.imgscr}  />            
+            <div className="card_info">            
+              <Title title = {props.title} />
+              <Heading sname = {props.sname} />              
                 <a href={props.links} target="_blank" rel='noreferrer'>
                  <button className="btn">Watch Now</button>
                 </a>   
