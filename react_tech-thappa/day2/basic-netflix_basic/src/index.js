@@ -8,6 +8,8 @@ import Cards from './Cards';
 import Sdata from './sData';
 // console.log('Sdata:', Sdata,Sdata.length)
 
+// using simple function to pass component
+
 // function ncard(val){
 //   // console.log(val);
 //   return(
@@ -18,6 +20,7 @@ import Sdata from './sData';
 //   );
 // }
 
+// array.map(function(currentValue,index,arr),thisValue);  // syntax for arrow function
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -27,6 +30,9 @@ root.render(
  <>
     <h1 className='heading_style'>List of Top 5 Netflix Series in 2020</h1>
         {/* {Sdata.map(ncard)}   */}
+        
+        {/* using FAT ARROW Function to pass component */}
+
         {Sdata.map((val,index) =>{
           return (
             <Cards
