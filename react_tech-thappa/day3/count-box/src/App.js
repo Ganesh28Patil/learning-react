@@ -12,7 +12,7 @@ const  App = ()=> {
 
   const IncNum =() =>{  
     setCount(count + 1);
-    // console.log("Clicked",count);
+    console.log("Clicked",count);
 
   }
   const DecNum = () =>{
