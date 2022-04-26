@@ -1,6 +1,6 @@
 # didi-clock
 
-<img src = "didi-clock.png" />
+<img src = "digi-clock.png" />
 
 # Getting Started with Create React App
 
