@@ -5,9 +5,9 @@ const SlotM = (props) =>{
     // let x = props.x;
     // let y = props.y;
     // let z = props.z;
-
+   
     let {x,y,z} = props;  // Object Destructuring
-     
+
     if((x===y)&& (y===z)){
       return (
         <>
