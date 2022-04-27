@@ -39,4 +39,6 @@ div {
     border-radius: 5px; 
     text-transform: uppercase; 
     cursor: pointer;
+    height: 100px;
+    width: 200px;
   }
