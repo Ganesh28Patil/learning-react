@@ -5,10 +5,10 @@ const  App = () =>{
 
   // useState returning object 
   let [fullName,setfullName] = useState({
-    fname:'',
-    lname:'',
+    fname: '',
+    lname: '',
   });
-  // console.log('fullName:', fullName);
+  console.log('fullName:', fullName);
   
   const getInput =(e)=>{
     // console.log(e.target.value); // whatever we write on the i/p it reflects on console screen
@@ -17,7 +17,7 @@ const  App = () =>{
     const value = e.target.value;  // this store whaterver we write on i/p box
 
     setfullName((prevValue) =>{
-      console.log("p",prevValue.lname,prevValue.fname);
+      // console.log("prevValue",prevValue.lname,prevValue.fname);
       if(name === "fName"){
         return(
           { 
@@ -44,13 +44,11 @@ const  App = () =>{
     <>
       <form onSubmit={submitForm}>
       <div>
-        <h1>Form {fullName.fname}  {fullName.lname} </h1>
-        <input type="text" name="fName" placeholder='Enter first' onChange={getInput} />
-        <input type="text" name="lName" placeholder='Enter last'  onChange={getInput} />
+        <h1>Form | {fullName.fname}  {fullName.lname} </h1>
+        <input type="text" name="fName" value = {fullName.fname} placeholder='Enter first' onChange={getInput} />
+        <input type="text" name="lName" value = {fullName.lname} placeholder='Enter last'  onChange={getInput} />
         {/* <input type="text" placeholder='Enter email' onChange={getInput} />         */}
         <button type='submit'>Submit</button>
-
-
       </div>
 
       </form>
