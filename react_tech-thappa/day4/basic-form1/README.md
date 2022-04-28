@@ -2,7 +2,7 @@
 
 # Single source of truth
 
-<img src = "basic-from1.png">
+<img src = "basic-form1.png" />
 
 # Getting Started with Create React App
 
