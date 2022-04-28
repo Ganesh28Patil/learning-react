@@ -16,7 +16,7 @@ const App = () =>{
     // setfullName(e.target.value);
     setfullName((preValue) => {
 
-      if(name == "fName"){
+      if(name === "fName"){
         return(
           {
             fname : value,
@@ -27,7 +27,7 @@ const App = () =>{
           }
         )
 
-      }else if(name == "lName"){
+      }else if(name === "lName"){
         return(
           {
             fname : preValue.fname,
@@ -36,7 +36,7 @@ const App = () =>{
             phone:  preValue.phone,
           }
         )
-      }else  if(name == "email"){
+      }else  if(name === "email"){
         return(
           {
             fname : preValue.fname,
@@ -47,7 +47,7 @@ const App = () =>{
           }
         )
 
-      }else if(name == "phone"){
+      }else if(name === "phone"){
         return(
           {
             fname : preValue.fname,
