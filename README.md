@@ -13,7 +13,10 @@ This Repo Consist of many basic concepts of react &amp; I have learned through o
     <img style="width:30%; margin:5%" src="react_tech-thappa/day4/basic-form1/basic-form1.png" />
   </a>
    <a href="https://learning-react-vert.vercel.app/" target="_blank">
-    <img style="width:30%; margin:5%" src="react_tech-thappa/day4/basic-login-form-showName/showName.png" />
+    <img style="width:30%; margin:5%" src="react_tech-thappa/day4/basic-loginForm-showName/showName.png" />
+  </a>
+  <a href="#" target="_blank">
+    <img style="width:30%; margin:5%" src="react_tech-thappa/day4/form_Input_uisngobject/form.png" />
   </a>
 <!-- <img style="width:30%; margin:5%" src="react_tech-thappa/day"> -->
 </div>
