@@ -9,6 +9,9 @@ This Repo Consist of many basic concepts of react &amp; I have learned through o
   <a href="https://learning-react-handling-events.vercel.app/" target="_blank">
     <img style="width:30%; margin:5%" src="react_tech-thappa/day3/handling-events/handling-events.png" />
   </a>
+   <a href="https://learning-react-basic-form1.vercel.app/" target="_blank">
+    <img style="width:30%; margin:5%" src="react_tech-thappa/day4/basic-form1/basic-form1.png" />
+  </a>
  
 <!-- <img style="width:30%; margin:5%" src="react_tech-thappa/day"> -->
 </div>
