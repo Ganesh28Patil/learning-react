@@ -2,7 +2,7 @@
 
 # refference youtube :
 
-<a href:"https://youtu.be/3P2CS5I2LtY"> https://youtu.be/3P2CS5I2LtY </a>
+ <a href:"https://youtu.be/3P2CS5I2LtY" target="_blank" > https://youtu.be/3P2CS5I2LtY </a>
 
 # Getting Started with Create React App
 
